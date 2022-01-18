@@ -1,0 +1,9 @@
+.home {
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #f8dbc9;
+    font-size: 125px;
+  }

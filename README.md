@@ -1,3 +1,17 @@
+Erin Louise
+
+#43444A - dark grey
+
+#ff4219 - red
+
+#f8dbc9 - beige
+
+#ffa699 - pink
+
+#ffbdb3 - light pink
+
+h1 font - roxborough cf light
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

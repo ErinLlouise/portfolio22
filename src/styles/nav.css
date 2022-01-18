@@ -1,6 +1,5 @@
 /* flex container */
 .flex-nav ul {
-    border: 1px solid black;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -9,6 +8,10 @@
 /* flex items */
 .flex-nav li {
     flex: 3;
+}
+
+.flex-nav a {
+    font-family: 'Playfair Display', serif;
 }
 
 @media all and (max-width: 1000px) {
