@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.bar {
+    width: 100%;
+    padding: 25px 0px;
+    background-color: transparent;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 125px;
+}
+
+.bar-content {
+    display: block;
+    width: 100%;
+    transform: translateX(100%);
+    animation: move 30s linear infinite;
+}
+
+@keyframes move {
+    to { transform: translateX(-100%)}
+}
