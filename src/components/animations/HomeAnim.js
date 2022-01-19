@@ -5,7 +5,7 @@ function HomeAnim () {
     return (
         <div className='body'>
             <div className='bar'>
-                <span className='bar_content'>DEVELOPER/DESIGNER/CREATIVE TECHNOLOGIST/LOREMIPSUM/DEVELOPER/DESIGNER/CREATIVE TECHNOLOGIST/LOREMIPSUM/</span>
+                <span className='bar_content'>DEVELOPER/ DESIGNER/ CREATIVE TECHNOLOGIST</span>
             </div>
         </div>
     )

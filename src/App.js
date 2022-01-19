@@ -1,10 +1,10 @@
 import Home from './components/Home';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      {/* <Nav /> */}
       <Home />
     </div>
   );

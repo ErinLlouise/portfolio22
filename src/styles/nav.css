@@ -23,7 +23,7 @@
     }
 }
 
-@media all and (max-width:100%) {
+@media all and (max-width:500px) {
     .flex-nav li {
         flex-basis: 100%;
     }
