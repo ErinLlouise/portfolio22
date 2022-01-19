@@ -1,9 +1,12 @@
 import React from 'react' 
+import '../styles/contact.css'
+import Nav from './Nav'
 
 function Contact () {
     return (
         <div>
-            <h1>HELLO</h1>
+            <Nav />
+            <h1>Contact</h1>
         </div>
     )
 }

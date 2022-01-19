@@ -53,3 +53,10 @@
         font-size: 65px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .bar {
+        max-width: 450px;
+        font-size: 40px;
+    }
+}

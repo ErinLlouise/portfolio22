@@ -1,8 +1,8 @@
 import React from 'react'
-//local files css
+import { Link, Outlet } from 'react-router-dom';
 import '../styles/nav.css'
-//global file css
 import '../styles.css'
+
 
 function Nav () {
     return (
@@ -11,13 +11,14 @@ function Nav () {
                 <div className='wrapper'>
                     <nav className='flex-nav'>
                         <ul>
-                            <li><a href="/home">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/projects">Projects</a></li>
-                            <li><a href="skills">Skills</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/skills">Skills</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </nav>
+                    <Outlet />
                 </div>
             </div>
         </div>
