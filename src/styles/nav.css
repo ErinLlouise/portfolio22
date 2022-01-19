@@ -10,9 +10,9 @@
     flex: 3;
 }
 
-.flex-nav Link {
+/* .flex-nav .link {
     font-family: 'Playfair Display', serif;
-}
+} */
 
 @media all and (max-width: 1000px) {
     .flex-nav ul {

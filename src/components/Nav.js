@@ -11,11 +11,11 @@ function Nav () {
                 <div className='wrapper'>
                     <nav className='flex-nav'>
                         <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/projects">Projects</Link></li>
-                            <li><Link to="/skills">Skills</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/" className='link'>Home</Link></li>
+                            <li><Link to="/about" className='link'>About</Link></li>
+                            <li><Link to="/projects" className='link'>Projects</Link></li>
+                            <li><Link to="/skills" className='link'>Skills</Link></li>
+                            <li><Link to="/contact" className='link'>Contact</Link></li>
                         </ul>
                     </nav>
                     <Outlet />
