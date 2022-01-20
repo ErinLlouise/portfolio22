@@ -1,3 +1,9 @@
+/* .html {
+    background-color: transparent;
+    z-index: 2;
+
+} */
+
 /* flex container */
 .flex-nav ul {
     list-style: none;
@@ -9,10 +15,21 @@
 .flex-nav li {
     flex: 3;
 }
+.flex-nav ul li .link {
+    color:white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding:20px 0px 20px 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition:all 0.5s;
+  }
 
-/* .flex-nav .link {
-    font-family: 'Playfair Display', serif;
-} */
+  .flex-nav ul li .link:hover {
+    background:rgba(0,0,0,0.3);
+  }
 
 @media all and (max-width: 1000px) {
     .flex-nav ul {
