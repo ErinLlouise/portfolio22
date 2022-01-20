@@ -1,5 +1,5 @@
 .html {
-  height: 200vh;
+  height: 200vh;  
 }
 
 .home {
@@ -42,11 +42,14 @@
 
   .sectionOne {
     height: 100vh;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .sectionTwo {
-    height: 200vh;
-    z-index: 3;
+    height: 100vh;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   /* scroll effect */
@@ -82,61 +85,31 @@
     display: block;  
     /* margin: 100px; */
     width: 100%;
-    /* center the text wrapper vertically */
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
 
-/* 
-.title_wrapper h1 {
-  text-align: center;
-  font-size: 64px;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Fraunces', serif;
-  font-weight: 900;
-} */
-
 .container_solid .title_wrapper h1 {
-  /* the text background */
-  /* background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85); */
-  /* background-size: 100vw auto;
-  background-position: center; */
-  
-  /* clip the text is possible */
-  /* text-fill-color: transparent; */
-  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   -webkit-background-clip: text;
   
   /* fallback text color */
   color: white;
-}
-
-.container_image {
-  /* Grab a free image from unsplash */
-  /* background-image: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
-  /* background-size:100vw auto;
-  background-position: center;
-  background-attachment: fixed; */
-  
-  /* position the second container below the first container */
-  /* top: 100vh; */
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .container_image .title_wrapper h1 {
   color: red;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .container_image .title_wrapper h1 span {
   color: transparent;
 }
-
-/* .container_image .title_wrapper .invisible {
-  color: transparent;
-} */
 
 
 h1 {
@@ -152,17 +125,6 @@ h1 {
     font-size: 90px;
     font-weight: 100;
   }
-/* 
-  h1::before {
-    content: attr(data-content);
-    color: #ebebeb;
-    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
-    transition: clip-path 275ms ease;
-  }
-
-  h1:hover::before {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  } */
 
   .about {
     display: flex;
@@ -178,6 +140,7 @@ h1 {
   .p_container p {
     color: white;
     max-width: 500px;
+    text-align: right;
   }
 
   @media all and (max-width: 1400px) {
